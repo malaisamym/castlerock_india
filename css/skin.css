@@ -1,0 +1,22 @@
+/*background color */
+
+.serv_icon,
+.strip,
+#about,
+#options li a.selected, #options_products li a.selected,
+a.zoom, #products, #partners{
+background-color:#f6f6f6 !important;
+color:#5a5a5a!important;
+}
+
+/*color */
+#contact .sub_header h2,
+#about .sub_header h2,
+#response{
+color:#5a5a5a !important;
+}
+
+/*border*/
+.validate_error{
+border:1px solid #f00 !important;
+}

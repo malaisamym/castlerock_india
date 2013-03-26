@@ -1,0 +1,74 @@
+nav {
+display: block;
+text-align: center;
+float:right;
+
+}
+
+nav #menuResponsive{
+	display:none;	
+}
+
+header nav {
+	position:absolute;
+	top:53px;
+	right:0;
+}
+
+nav ul {
+list-style: none;
+margin:0px !important;
+padding:0px !important;
+}
+nav li {
+display: inline-block;
+margin:0;
+}
+nav a {
+display: inline-block;
+color: #fff;
+padding: 1px 15px 2px;
+text-decoration: none;
+line-height:30px;
+font-family: DINProRegular, sans-serif;
+font-size:16px;
+font-weight:normal
+}
+
+nav a:hover {
+/*background:transparent url(../images/menu_selected.gif) repeat-x  left b1ottom;*/
+background:#f2f2f2;
+text-decoration: none;
+color: #c78d0e;
+}
+
+nav select {
+display: none;
+}
+
+nav a:active {
+background:#f2f2f2;
+}
+
+nav .current a {
+background:#f2f2f2;
+color:#c78d0e;
+}
+
+nav li.careers, nav li.contact{position:absolute; top:-53px; right:230px; }
+nav li.contact{right:135px;}
+nav li.contact a{background:url(../images/contact_mail_icon.png) no-repeat left center; padding:4px 20px 5px 25px; font-size:12px; font-weight:normal;}
+nav li.careers a, nav li.careers a:hover, nav li.careers.current a{background:url(../images/careers_icon.png) no-repeat left center; font-size: 12px;padding: 4px 20px 5px 20px;}
+
+
+header ul.quickLinks{float:right; height:40px; line-height:30px; list-style:none; margin-top:10px;}
+ul.quickLinks li{font-size:12px; color:; float:left}
+ul.quickLinks a{padding:0; line-height:30px; font-size:12px; color:#555; margin:-5px 0 0 12px; float:left}
+ul.quickLinks a:hover, ul.quickLinks li.current a{background:none; text-decoration:none;}
+ul.quickLinks a.contactUs, ul.quickLinks li.current a.contactUs{background:url(../images/contact_mail_icon.png) no-repeat left center; padding-left:20px;}
+ul.quickLinks a.careers, ul.quickLinks li.current a.careers{background:url(../images/careers_icon.gif) no-repeat left center; padding:0 10px 0 12px;}
+ul.quickLinks li.contactNum, ul.quickLinks li.current.contactNum{cursor:default;background:url(../images/phone_icon.png) no-repeat left 0px; padding-left:20px; margin-left:10px; color:#f6b34b; font-family:DINProMedium; font-weight:normal; font-size:19px;}
+
+#footer{color:#4d4d4d; max-width:; }
+#footer nav{float:right;}
+ nav#footer a, nav#footer a:hover{color:#4d4d4d; background:none !important;font-family:DINProMedium; font-size:12px; font-weight:normall; padding:0 5px;}

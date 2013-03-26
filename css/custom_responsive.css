@@ -1,0 +1,130 @@
+/* Width of 768px */
+
+nav ul {
+	display:inline-block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+header .container {
+padding:0px !important;
+}
+
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+ margin-bottom:20px;
+}
+
+/* portfolio */
+.element {
+width:225px !important;
+height:350px;
+}
+}
+
+/* Mobile landscape width 320 */
+@media only screen and (max-width: 767px) {
+.container {
+padding:20px;
+}
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+ margin-bottom:20px;
+}
+
+/* home */
+ h1.responsive_text {
+font-size:40px;
+line-height:45px;
+padding-bottom:10px;
+}
+
+/* sub header */
+ .sub_header h2 {
+font-size:40px;
+}
+
+/* nav */
+nav ul {
+ width:200px;
+ background:#3f3f3f;
+ position:relative; top:25px;
+}
+
+nav #menuResponsive{
+ display:block;
+ position:absolute;
+ top:0;
+ right:25px;
+ cursor: pointer;
+}
+ nav select {
+display: none;
+width:270px;
+margin:0px auto !important;
+padding:10px;
+height:inherit !important;
+line-height:inherit !important;
+}
+
+/*portfolio*/
+.element {
+height:auto;
+}
+
+
+#options li, #options_products li {
+    display: block;
+    text-align: center;
+}
+
+
+#options li a, #options_products li a {
+    display: block;
+    text-align: center !important;
+}
+
+.logo{margin-top:0;}
+.iphone{width:100%;}
+#home section.homeContent a.button{right:20px;}
+.iphone, .android, .webdevelopment, .server{margin-left:0 !important;}
+ul.quickLinks{margin:0 !important;}
+section#about ul li, section#careers ul li{float:none; width:100%; padding:0}
+.pf_img{max-width:375px;}
+}
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+ .container {
+padding:20px;
+}
+ .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+ margin-bottom:20px;
+}
+
+/* nav */
+ nav ul {
+display: none;
+}
+ nav select {
+display: inline-block;
+width:270px;
+margin:0px auto !important;
+padding:10px;
+height:inherit !important;
+line-height:inherit !important;
+}
+
+ul.quickLinks{margin:0 !important;}
+
+/*portfolio*/
+.element {
+height:auto;
+}
+#options li {
+    display: block;
+    text-align: center;
+}
+
+
+#options li a {
+    display: block;
+    text-align: center !important;
+}
+
+}
